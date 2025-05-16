@@ -7,11 +7,6 @@ app.get('/', (req,res) => {
 
 });
 
-app.get('/home', (req,res) => {
-    res.send('Welcome to Our React Application');
-
-});
-
 app.get('/about', (req,res) => {
     res.send('A simple React app with components in separate files');
 
